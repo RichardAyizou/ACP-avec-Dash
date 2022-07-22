@@ -142,3 +142,6 @@ tab_selected_style = {
     'color': 'white',
     'padding': '6px'
 }
+
+#----------------------------------------- Application---------------------------------------------------
+app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
